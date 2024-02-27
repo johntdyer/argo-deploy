@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/example/hello-world:1.0.0
+  repository: testcontainers/helloworld
+
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
